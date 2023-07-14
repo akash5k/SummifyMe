@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <header className="w-full flex justify-center items-center flex-col">
     <nav className="flex justify-between items-center w-full mb-10 pt-3">
-      <img src={logo} alt="Summify logo" className='w-28 object-ccontain'/>
+      <img src={logo} alt="Summify logo" className='w-40 object-ccontain'/>
 
       <button
         type='button'
@@ -16,13 +16,13 @@ const Hero = () => {
     </nav>
 
     <h1 className='head_text'>
-      Sumerize Articles with <br className='max-md:hidden'/>
-      <span className='orange_gradient'>OpenAI GPT-4</span>
+      Sumerize Articles and Websites with <br className='max-md:hidden'/>
+      <span className='blue_gradient'>OpenAI GPT-4</span>
     </h1>
     <h2 className='desc'>
-      Simplify your reading with SummifyMe, an open-source article
-      summarizer that transforms lenghty articles into clear and concise
-      summaries.
+    Simplify your reading with the help of AI using SummifyMe, 
+    article summarizer that utilizes artificial intelligence to
+    transform lengthy articles into clear and concise summaries.
     </h2>
     </header>
   )
