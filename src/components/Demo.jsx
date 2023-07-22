@@ -112,7 +112,7 @@ const handleCopy = (copyUrl) =>{
           <img src={loader} alt="loader" className='w-10 h-10' />
         ): error ? (
           <p className='font-inter font-bold text-black text-center'>
-            Well,that wasn't supposed to happen..
+            Oops ! Something went wrong..
             <br />
             <span className='font-satoshi font-normal'>
               {error?.data?.error}
