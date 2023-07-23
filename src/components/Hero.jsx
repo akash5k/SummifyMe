@@ -3,8 +3,8 @@ import { banner, logo } from '../assets';
 
 const Hero = () => {
   return (
-    <header className="w-full flex justify-center items-center flex-col"> {/* Set height to 100vh */}
-      <nav className="flex justify-between items-center w-full pt-2">
+    <header className="w-full flex justify-center items-center flex-col">
+      <nav className="nav">
         <img src={logo} alt="Summify logo" className="w-40 object-contain" />
 
         <button
@@ -19,10 +19,10 @@ const Hero = () => {
   <div class="hidden md:block floating">
     <img src={banner} alt="ai banner" class="w-200 drop-shadow-2xl" />
   </div>
-  <div class="">
+  <div>
     <h1 class="head_text">
       Summarize Articles with <br class="max-md:hidden" />
-      <span class="text_gradient">OpenAI GPT-4</span>
+      <span class="text_gradient ">OpenAI GPT-4</span>
     </h1>
     <h2 class="desc">
       Simplify your reading with the help of AI using SummifyMe,

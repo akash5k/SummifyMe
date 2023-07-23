@@ -81,6 +81,10 @@
   @apply relative z-10 flex justify-center items-center flex-col mx-auto sm:px-16 px-6;
 }
 
+.nav{
+  @apply flex justify-around items-center w-full pt-2 sticky top-0 z-50 backdrop-blur-2xl;
+}
+
 .black_btn {
   @apply rounded-full border border-black bg-black py-1.5 px-5 text-sm text-white transition-all hover:bg-white hover:text-black;
 }
