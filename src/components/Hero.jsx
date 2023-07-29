@@ -21,8 +21,8 @@ const Hero = () => {
   </div>
   <div>
     <h1 class="head_text">
-      Summarize Articles with <br class="max-md:hidden" />
-      <span class="text_gradient ">OpenAI GPT-4</span>
+      Summarizing made easy with <br class="max-md:hidden" />
+      <span class="text_gradient ">AI</span>
     </h1>
     <h2 class="desc">
       Simplify your reading with the help of AI using SummifyMe,

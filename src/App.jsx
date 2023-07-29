@@ -8,7 +8,7 @@ import './App.css'
 const App = () => {
   return (
     <main>
-        <div className="main">
+        <div className="main md:bg-contain">
            
         </div>
         
