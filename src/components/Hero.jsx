@@ -21,8 +21,8 @@ const Hero = () => {
   </div>
   <div>
     <h1 class="head_text">
-      Summarizing made easy with <br class="max-md:hidden" />
-      <span class="text_gradient ">AI</span>
+    Streamline Your Reading Experience with  <br class="max-md:hidden" />
+      <span class="text_gradient ">AI-Powered</span> <br class="max-md:hidden" /> Article Summarizer
     </h1>
     <h2 class="desc">
       Simplify your reading with the help of AI using SummifyMe,
